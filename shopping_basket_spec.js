@@ -14,7 +14,7 @@ describe('shopping basket', function(){
     assert.equal(4, shoppingBasket.items.length);
   })
   it('find the price of a shopping basket.  It can have multiple items', function(){
-    assert.equal(4.00, shoppingBasket.sumTotal)
+    assert.equal(4.00, shoppingBasket.sumTotal())
   });
 })
 // Discounts:

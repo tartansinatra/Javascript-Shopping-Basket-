@@ -9,7 +9,7 @@ var shoppingBasket = {
     // for(i = 0; i<items.length; i+= 1){
     //  total += item[i]["price"];
 
-    for(var item of items){
+    for(var item of this.items){
       total = total + item.price;
     }
     return total;
